@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title> Meus Documentos 2023 </title>
+</head>
+
+<body>
+
+    <h1> Imagens que si Adaptem Sozinhas </h1>
+
+
+
+    <picture><!--source media faz a troca automatica de acordo com o tamanho da tela-->
+
+        <source media="(max-width: 580px)" srcset="IMAGENS/img-p.png" type="image/png">
+        <source media="(max-width: 720px)" srcset="IMAGENS/img-m.png" type="image/png">
+        <img src="IMAGENS/img-g.png" alt="imagem flexivel">
+
+    </picture>
+
+    <h2>Reproduzindo Audio</h2>
+    <p> Reproduzir Audio com HTML sem conversao </p>
+    <audio src="media/Press Fuse.mp3" controls autoplay></audio>
+
+
+    <p> Reproduzindo audio com conversao </p>
+    <audio preload="metadata" controls loop>
+        <source src="media/Press Fuse.mp3" type="audio/mp3">
+        <source src="media/Press Fuse.ogg" type="audio/ogg">
+        <source src="media/Press Fuse.wav" type="audio/wav">
+
+
+
+    </audio>
+
+
+
+</body>
+
+</html>

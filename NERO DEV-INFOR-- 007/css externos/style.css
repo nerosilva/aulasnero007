@@ -1,0 +1,70 @@
+.tudo {
+    width: 90%;
+    margin: auto;
+  }
+
+  .linha {
+    display: flex;
+    flex-direction: row;
+   
+  }
+
+  img {
+    width: 100%;
+
+  }
+
+  img:hover {
+
+    width: 300;
+    color: rgb(0, 0, 0);
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(255, 4, 0);
+  }
+
+  /*h1:hover {
+    font-size: 25px;*/
+
+
+  .card {
+    border: solid 1px #10ee08;
+  }
+
+  .titulo {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+  }
+
+  img-titulo {
+    width: 5px;
+    /* border: solid 10px rgb(0, 13, 255);*/
+    border-radius: 5px;
+  }
+
+
+
+  .botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: solid 1px rgb(18, 22, 7);*/
+    width: 30%;
+  }
+
+  i {
+    font-size: 30px;
+  }
+
+  .bi:hover {
+    background-color: aquamarine;
+  }
+
+  h1 {
+    width: 70%;
+    /* border: solid 1px red;*/
+
+  }
